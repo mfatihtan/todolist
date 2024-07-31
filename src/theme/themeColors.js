@@ -6,3 +6,4 @@ const themeColors = {
     white: "#ffffff",
     blueRGBA: "rgba(124, 185, 232,0.3)",
 }
+export default themeColors

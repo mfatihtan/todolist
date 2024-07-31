@@ -1,11 +1,12 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import React from 'react';
+import RootNavigator from './src/navigations/RootNavigator';
+import { NavigationContainer } from '@react-navigation/native';
 
 const App = (): React.JSX.Element => {
   return (
-    <View>
-      <Text>App</Text>
-    </View>
+    <NavigationContainer>
+      <RootNavigator />
+    </NavigationContainer>
   )
 }
 
